@@ -1,5 +1,5 @@
-import { rename, writeFile } from 'node:fs/promises'
-import { basename, dirname, join } from 'node:path'
+var { rename, writeFile } =require('fs/promises')
+var { basename, dirname, join } =require('path')
 
 // Returns a temporary file
 // Example: for /some/file will return /some/.file.tmp
